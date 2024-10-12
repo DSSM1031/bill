@@ -1,0 +1,26 @@
+{
+  "name": "bill",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "connect-mongo": "^5.1.0",
+    "cookie-parser": "~1.4.6",
+    "dayjs": "^1.11.13",
+    "debug": "~4.3.7",
+    "ejs": "~3.1.10",
+    "express": "~4.21.0",
+    "express-session": "^1.18.1",
+    "http-errors": "~2.0.0",
+    "jquery": "^3.7.1",
+    "json-server": "^1.0.0-beta.3",
+    "jsonwebtoken": "^9.0.2",
+    "lowdb": "^1.0.0",
+    "md5": "^2.3.0",
+    "mongoose": "^8.7.0",
+    "morgan": "~1.10.0",
+    "shortid": "^2.2.16"
+  }
+}
